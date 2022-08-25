@@ -3171,4 +3171,8 @@ div[aria-label="Announcement"] {
   height: 100%;
   text-align: center;
 }
+
+.compro h3 strong {
+  font-size: 60%;
+}
 /* ......................niket homepage css end..........  */
