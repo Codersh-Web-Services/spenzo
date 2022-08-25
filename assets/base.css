@@ -2935,3 +2935,208 @@ div[aria-label="Announcement"] {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
+
+/* ......................niket homepage css start..........  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*  hero-section start here   */
+.hero-section {
+  background-color: black;
+  padding: 00px 0;
+}
+
+.hero-section img {
+  width: 100%;
+}
+
+.hero-section button.shop-btn {
+  font-weight: 700;
+  font-size: 21.47px;
+  line-height: 25px;
+  background: #2C50B2;
+  border-radius: 50px;
+  padding: 12px 35px;
+  color: #fff;
+}
+
+/* hero-section end here  */
+
+/* play-diffrent-section start  */
+.play-diffrent-section h3.change_way_title {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 84px;
+  color: #fff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000 !important;
+}
+
+.play-diffrent-section h3.change_way_title p {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 84px;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000 !important;
+  letter-spacing: normal;
+}
+
+.play-diffrent-section h3.change_way_title p strong {
+  font-style: italic;
+  color: #000;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000 !important;
+}
+
+.play-diffrent-section p.golf-editor {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: .2em;
+  padding: 0;
+  color: #000;
+}
+
+/* play-diffrent-section end  */
+
+/* rated-slope-section start  */
+.rated-slope-section .subrated-slope-section {
+  background-color: #000;
+  border-radius: 50px;
+}
+
+.rated-slope-section img {
+  width: 100%;
+}
+
+.rated-slope-section img.three-max-rated-slop {
+  width: 200px;
+}
+
+.rated-slope-section .top-icon-section p {
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding: 5px 0 0;
+  /* max-width: 125px; */
+  margin: 0 auto;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: -.5px;
+}
+
+.rated-slope-section .top-icon-section img {
+  max-width: 54px;
+}
+
+.subrated-slope-section .price span.money {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36.8605px;
+  line-height: 43px;
+  color: #fff;
+  text-decoration: none !important;
+  text-align: center;
+}
+
+.subrated-slope-section p.sub_title {
+  font-weight: 400;
+  color: #fff;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: .2em;
+  margin: 20px 0;
+}
+
+.subrated-slope-section a.shopcollection {
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 15px;
+  letter-spacing: -.02em;
+  background: #FBFBFB;
+  padding: 14px 40px;
+  color: #000;
+  border-radius: 25px;
+  margin-right: 5px !important;
+  text-transform: uppercase;
+}
+
+.rated-shop-icon {
+  margin: 10px 0;
+}
+
+/* rated-slope-section end  */
+
+
+/* shop-collection-section start  */
+.shop-collection-section .player-megnetic-section {
+  background-color: #000;
+  border-radius: 50px;
+  padding: 50px 0;
+}
+
+.shop-collection-section .series-laser-section {
+  background-color: #e5e5e5;
+  border-radius: 50px;
+  padding: 50px 0;
+}
+
+.shop-collection-section .player-megnetic-section img,
+.shop-collection-section .series-laser-section img {
+  width: 384px;
+}
+
+.shop-collection-section .player-megnetic-section p.price,
+.shop-collection-section .series-laser-section p.price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: .2em;
+  color: #fff;
+  padding: 25px 0 0;
+}
+.shop-collection-section .series-laser-section p.price{
+  color: #000;
+}
+
+.shop-collection-section .player-megnetic-section .button,
+.shop-collection-section .series-laser-section .button {
+  margin: 50px 0;
+}
+
+.shop-collection-section .player-megnetic-section .button a.shopcollection,
+.shop-collection-section .series-laser-section .button a.shopcollection {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -.02em;
+  padding: 20px 75px;
+  color: #fff;
+  border-radius: 35px;
+  margin-right: 5px !important;
+  text-transform: uppercase;
+  background: #FBFBFB;
+  color: #000;
+  text-decoration: none;
+}
+
+.shop-collection-section .series-laser-section .button a.shopcollection {
+  background: #000000;
+  color: #fff;
+}
+
+/* shop-collection-section end  */
+
+/* ......................niket homepage css end..........  */
