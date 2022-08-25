@@ -7,6 +7,11 @@
   --gradient-background: var(--gradient-base-background-1);
   --cerulean: #2c50b2;
 }
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
 .bg-cerulean {
   background-color: var(--cerulean);
   color: white;
@@ -227,6 +232,98 @@ html.no-js .no-js-hidden {
   color: #fff !important;
 }
 
+small.copyright__content,
+.footer-extra-links a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #9f9f9f;
+  padding-top: 30px;
+}
+.footer-extra-links {
+  margin-top: 10px;
+}
+button#Subscribe {
+  background: blue;
+}
+.footer-extra-links a {
+  text-decoration: none;
+  border-right: 1px solid;
+  margin-top: 2rem;
+  padding: 0;
+  margin-right: 9px;
+  padding-right: 7px;
+}
+.footer-block--menu {
+  border-right: 1px solid #fff;
+  padding: 0 1rem;
+}
+ul.footer-block__details-content a {
+  color: #9f9f9f !important;
+}
+.sub-content p,
+.sub-content strong {
+  padding-left: 10px;
+}
+.sub-content p {
+  left: 0;
+  top: 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9f9f9f;
+}
+.footer-block__details-content p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9f9f9f !important;
+}
+.signup_input {
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: none;
+  color: #9f9f9f;
+  width: 400px;
+  padding: 10px;
+  outline: none;
+  margin-right: 10px;
+}
+.signup_input:focus {
+  outline: none;
+}
+
+.signup_btn {
+  display: inline !important;
+  font-size: 26px !important;
+  line-height: 30px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-family: "Roboto", "Roboto Condensed " !important;
+  font-style: italic;
+  font-weight: 700 !important;
+  background: #2c50b2 !important;
+  padding: 12px 65px !important;
+}
+.footer-block__heading,
+.sub-content strong {
+  margin: 0 0 10px;
+  font-style: italic;
+  font-family: "Roboto" !important;
+  margin: 0 0 24px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1;
+  color: #fff;
+  text-transform: uppercase;
+}
 .page-width-desktop {
   padding: 0;
   margin: 0 auto;
@@ -813,8 +910,8 @@ summary::-webkit-details-marker {
 *:focus-visible {
   outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   outline-offset: 0.3rem;
-  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
-    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  /* box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3); */
 }
 
 /* Fallback - for browsers that don't support :focus-visible, a fallback is set for :focus */
@@ -2830,6 +2927,12 @@ div[aria-label="Announcement"] {
   right: 0;
   border-radius: 0;
 }
+.video-div {
+  border-radius: 2rem;
+}
+.subrated-slope-section.video-div {
+  border-radius: 4rem;
+}
 
 @media screen and (max-width: 749px) {
   .content-container--full-width-mobile {
@@ -3101,7 +3204,6 @@ div[aria-label="Announcement"] {
 .shop-collection-section .player-megnetic-section img,
 .shop-collection-section .series-laser-section img {
   object-fit: contain;
-  width: auto;
 }
 
 .shop-collection-section .player-megnetic-section p.price,
