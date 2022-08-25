@@ -222,8 +222,9 @@ html.no-js .no-js-hidden {
   margin: 0 auto;
   padding: 0 1.5rem;
 }
-.footer-block__heading * {
-  color: white;
+.footer-block__heading,
+.footer-block__details-content * {
+  color: #fff !important;
 }
 
 .page-width-desktop {
