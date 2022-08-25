@@ -27,7 +27,7 @@
 {%- endstyle -%}
 {% if collection.metafields.custom.collection_hero_image %}
 <div class="collection-img">
-  <img width="100%" src="{{collection.metafields.custom.collection_hero_image }}" alt="collection image">
+  <img width="100%" src="{{collection.metafields.custom.collection_hero_image.value | img_url : "master" }}" alt="collection image">
   </div>
 {% endif %}
 <div class="section-{{ section.id }}-padding">
