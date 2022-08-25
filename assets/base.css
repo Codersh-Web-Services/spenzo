@@ -2323,10 +2323,6 @@ input[type="checkbox"] {
   word-break: break-word;
 }
 
-.header__heading-link:hover .h2 {
-  color: rgb(var(--color-foreground));
-}
-
 .header__heading-link .h2 {
   line-height: 1;
   color: white;
@@ -2666,7 +2662,6 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
