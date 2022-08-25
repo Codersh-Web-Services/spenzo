@@ -282,6 +282,9 @@ ul.footer-block__details-content a {
   line-height: 20px;
   color: #9f9f9f !important;
 }
+.footer-block.grid__item {
+  padding: 0 1rem;
+}
 .signup_input {
   text-align: left;
   font-size: 16px;
