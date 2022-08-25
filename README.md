@@ -1,4 +1,4 @@
-# Spenzo | Codersh custom shopify theme
+# Spenzo storefront frontend
 
 Repo is ready to be pulled.
 
