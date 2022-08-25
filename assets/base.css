@@ -3179,6 +3179,8 @@ div[aria-label="Announcement"] {
   height: 100%;
   text-align: center;
 }
+
+/* ......................niket homepage css end..........  */
 .new_top_logo {
   width: 300px !important;
   margin: 20px auto;
@@ -3192,4 +3194,45 @@ div[aria-label="Announcement"] {
 .compro h3 strong {
   font-size: 60%;
 }
-/* ......................niket homepage css end..........  */
+.follow_us_text_box .follow_icon a {
+  margin: 0 20px;
+}
+
+.follow_us_bg {
+  background: url(follow-us.png) center top no-repeat;
+  width: 100%;
+  height: 100%;
+  margin: 50px 0 30px;
+  border-radius: 50px;
+  background-size: cover;
+}
+.follow_us_text_box {
+  max-width: 50%;
+  margin: 0 0 0 50%;
+  text-align: center;
+  padding: 250px 0;
+}
+.follow_us_text_box h2 {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 49px;
+  color: #000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000 !important;
+}
+.follow_us_text_box .follow_icon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 45px;
+}
+.follow_us_text_box h3 {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  padding: 50px 0 0;
+}
