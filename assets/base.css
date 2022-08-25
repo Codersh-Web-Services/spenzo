@@ -2977,6 +2977,13 @@ div[aria-label="Announcement"] {
   -webkit-text-stroke-color: #000 !important;
 }
 
+.headline-logo {
+  max-width: 220px;
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+}
+
 .play-diffrent-section h3.change_way_title p {
   font-style: italic;
   font-weight: 900;
@@ -3093,7 +3100,8 @@ div[aria-label="Announcement"] {
 
 .shop-collection-section .player-megnetic-section img,
 .shop-collection-section .series-laser-section img {
-  width: 384px;
+  object-fit: contain;
+  width: auto;
 }
 
 .shop-collection-section .player-megnetic-section p.price,
@@ -3171,7 +3179,16 @@ div[aria-label="Announcement"] {
   height: 100%;
   text-align: center;
 }
-
+.new_top_logo {
+  width: 300px !important;
+  margin: 20px auto;
+}
+.product_box {
+  width: 100%;
+  height: 350px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
 .compro h3 strong {
   font-size: 60%;
 }
