@@ -10,7 +10,9 @@
     margin-bottom: 1.5rem;
   }
 }
-
+.grid__item .card {
+  border: 0;
+}
 .collection .loading-overlay {
   top: 0;
   right: 0;
