@@ -172,6 +172,7 @@
           "footer-2"
         ],
         "settings": {
+          "footer_image": "shopify:\/\/shop_images\/Spenzo_logos_Mesa_de_trabajo_1_copia_2.png",
           "color_scheme": "background-1",
           "newsletter_enable": true,
           "show_social": true,
