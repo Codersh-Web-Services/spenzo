@@ -38,9 +38,9 @@
 
 <footer class="footer bg-black  section-{{ section.id }}-padding">
 
-  <div class="grid__item mx-auto d-block"  ><div class="footer__logo">
-<a href="/">
-<img src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/footer-logo_1_x50@2x.png?v=1652369399" alt="Blue Tees Golf">
+  <div class=" container-fluid mx-auto d-block"  ><div class="footer__logo">
+<a href="/" class="d-block mx-auto ">
+<img class="d-block mx-auto " src="{{ section.settings.footer_image | img_url : '80'}}" alt="spenzo logo ">
 </a>
 </div></div>
 
@@ -490,6 +490,11 @@
     }
   ],
   "settings": [
+  {
+    "type": "image_picker",
+    "id": "footer_image",
+    "label": "Footer image"
+  },
     {
       "type": "select",
       "id": "color_scheme",

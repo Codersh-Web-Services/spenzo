@@ -9,11 +9,11 @@
                         <div class="carousel-item active">
                             <div class=" d-md-flex">
                                 <div class="col-md-5 text-center my-auto">
-                                    <img src="https://cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/banner-13-8-left-img1.png?v=70938892808681907551660382635" alt="banner-img1">
-                                    <button class="shop-btn ">SHOP NOW</button>
+                                    <img src="{{section.settings.slide1 | image_url }}">
+                                    <button onclick="window.location.pathname = '{{section.settings.slide1btnurl}}'" class="shop-btn ">{{section.settings.slide1btn}}</button>
                                 </div>
                                 <div class="col-md-7">
-                                    <img src="https://cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/banner-13-8-right-img1.png?v=170897814466330363701660380402" alt="banner-img2">
+                                    <img src="{{section.settings.slide1_bg | image_url}}">
                                 </div>
                             </div>
                         </div>
@@ -21,18 +21,18 @@
                             <div class=" d-md-flex">
                                 
                                 <div class="col-12">
-                                    <img src="https://cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/slider-player.jpg?v=83151965064644042691660936295" alt="">
+                                    <img  loading="lazy" src="{{section.settings.slide2_bg | image_url }}" alt="section.settings.slide2_bg.alt">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item ">
                             <div class=" d-md-flex">
                                 <div class="col-md-5 text-center my-auto">
-                                    <img src="https://cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/banner-13-8-left-img1.png?v=70938892808681907551660382635" alt="">
-                                    <button class="shop-btn ">SHOP NOW</button>
+                                    <img  loading="lazy" src="{{section.settings.slide1 | image_url }}" alt="{{section.settings.slide1.alt }}">
+                                    <button onclick="window.location.pathname = '{{section.settings.slide1btnurl}}'" class="shop-btn ">{{section.settings.slide1btn}}</button>
                                 </div>
                                 <div class="col-md-7">
-                                    <img src="https://cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/banner-13-8-right-img1.png?v=170897814466330363701660380402" alt="">
+                                    <img  loading="lazy" src="{{section.settings.slide1_bg | image_url }}" alt="{{section.settings.slide1_bg.alt }}">
                                 </div>
                             </div>
                         </div>
@@ -57,11 +57,11 @@
         <div class="container-fluid py-5">
             <div class="row">
                 <div class="col-md-6 mx-auto text-center">
-                    <img src="https://cdn.shopify.com/s/files/1/0057/8958/1381/files/c.png?v=1660216653" alt="blue-tees-golf">
+                    <img src="{{section.settings.logo1 | image_url : width : 100}}">
                     <h3 class="change_way_title ">
-                        <p>PLAY <strong>DIFFERENT</strong></p>
+                        <p>{{section.settings.sheading1}}</p>
                     </h3>
-                    <p class="golf-editor">GOLF EDITOR’S CHOICE 2022</p>
+                    <p class="golf-editor">{{section.settings.sheading2}}</p>
                 </div>
             </div>
         </div>
@@ -74,73 +74,39 @@
             <div class="row">
                 <div class="col-11 mx-auto subrated-slope-section d-lg-flex ">
                     <div class="col-lg-6 mx-auto d-none d-lg-flex mt-auto text-center ">
-                        <img src="https://cdn.shopify.com/s/files/1/0057/8958/1381/files/Group_19675.png?v=1660668391" alt="golf-editor-choice.webp">
+                        <img src="{{section.settings.product_group | image_url }}" alt="{{section.settings.product_group.alt }}">
                     </div>
                     <div class="col-lg-6 m-auto text-center py-5">
-                        <img class="headline-logo"  src="https://cdn.shopify.com/s/files/1/0057/8958/1381/files/Group_212_3.png?v=1655217789">
-                        <p class="sub_title">#1 RATED SLOPE RANGEFINDER 2021-22</p>
+                        <img class="headline-logo"  src="{{section.settings.product_group_logo | image_url }}" alt="{{section.settings.product_group_logo.alt }}">
+                        <p class="sub_title">{{section.settings.subheadline}}</p>
                         <div class="row top-icon-section">
-                            <div class="col-3 rated-shop-icon">
-                                <div class="top-icon">
-                                    <img
-                                        src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Frame-1.png?v=1654149075">
-                                </div>
-                                <p>Crystal Clear Display</p>
-                            </div>
-                            <div class="col-3 rated-shop-icon">
-                                <div class="top-icon"> <img
-                                        src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Frame-1.png?v=1654149075">
-                                </div>
-                                <p>Crystal Clear Display</p>
-                            </div>
-                            <div class="col-3 rated-shop-icon">
-                                <div class="top-icon"> <img
-                                        src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Frame-1.png?v=1654149075">
-                                </div>
-                                <p>Crystal Clear Display</p>
-                            </div>
-                            <div class="col-3 rated-shop-icon">
-                                <div class="top-icon"> <img
-                                        src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Frame-1.png?v=1654149075">
-                                </div>
-                                <p>Crystal Clear Display</p>
-                            </div>
-                            <div class="col-3 rated-shop-icon">
-                                <div class="top-icon"> <img
-                                        src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Frame-1.png?v=1654149075">
-                                </div>
-                                <p>Crystal Clear Display</p>
-                            </div>
-                            <div class="col-3 rated-shop-icon">
-                                <div class="top-icon"> <img
-                                        src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Frame-1.png?v=1654149075">
-                                </div>
-                                <p>Crystal Clear Display</p>
-                            </div>
-                            <div class="col-3 rated-shop-icon">
-                                <div class="top-icon"> <img
-                                        src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Frame-1.png?v=1654149075">
-                                </div>
-                                <p>Crystal Clear Display</p>
-                            </div>
-                            <div class="col-3 rated-shop-icon">
-                                <div class="top-icon"> <img
-                                        src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Frame-1.png?v=1654149075">
-                                </div>
-                                <p>Crystal Clear Display</p>
-                            </div>
+                            {% for block in section.blocks %}
+                             {% case block.type %}
+  
+      {% when 'productfeatures' %}  
+                                    <div class="col-3 rated-shop-icon">
+                                        <div class="top-icon">
+                                            {{ block.settings.image | image_url: width: 54 | image_tag }}
+                                        </div>
+                                        <p>{{ block.settings.text }}</p>
+                                    </div>
+                                    {% endcase %}
+                              {% endfor %}
+
+                          
+                         
                         </div>
                         <div class="price my-5">
-                            <span class="money">Starting at $199</span>
+                            <span class="money">{{section.settings.pricetext}}</span>
                         </div>
                         <div class="button mt-5">
-                            <a href="" class="shopcollection">
-                                Shop Now
+                            <a href="{{section.settings.maincollectionbtn_url}}" class="shopcollection">
+                                {{section.settings.maincollectionbtn}}
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-6 mx-auto d-flex d-lg-none mt-auto text-center ">
-                        <img src="./Assets/images//golf-editor-choice.webp" alt="golf-editor-choice.webp">
+                        <img src="{{section.settings.product_group | image_url }}" alt="{{section.settings.product_group.alt }}">
                     </div>
                 </div>
             </div>
@@ -155,29 +121,80 @@
                 <div class="col-11 mx-auto d-lg-flex ">
                 <div class="col-lg-6  text-center pe-4">
                     <div class="player-megnetic-section ">
-                    <img class="new_top_logo" src="https://cdn.shopify.com/s/files/1/0057/8958/1381/files/Group_18086.png?v=1655302647" alt="player-megnetic"> <br>
-                    <img  class="product_box" src="https://cdn.shopify.com/s/files/1/0057/8958/1381/files/PlayerSpeaker_8_1.png?v=1659169654" alt="PlayerSpeaker_8_1">
-                    <p class="price">STARTING AT $129</p>
+                    <img class="new_top_logo" src="{{section.settings.collectionsub1 | image_url}}" alt="{{section.settings.collectionsub1.alt}}"> <br>
+                    <img  class="product_box" src="{{section.settings.collectionsub1product | image_url}}" alt="{{section.settings.collectionsub1.alt}}">
+                    <p class="price">{{section.settings.collectionsub1pricetext}}</p>
                     <div class="button">
-                        <a href="" class="shopcollection">
-                            SHOP COLLECTION
+                        <a href="{{section.settings.collectionsub1.url }}" class="shopcollection">
+                            {{ section.settings.collectionsub1text }}
                         </a>
                     </div>
                 </div>
                 </div>
                 <div class="col-lg-6  text-center ps-lg-4 my-5 my-lg-0">
                     <div class="series-laser-section">
-                    <img class="new_top_logo"  src="https://cdn.shopify.com/s/files/1/0057/8958/1381/files/Group_18085.png?v=1655302923" alt="series2-laser"> <br>
-                    <img class="product_box" src="https://cdn.shopify.com/s/files/1/0057/8958/1381/files/Series2-Family_2x_1.png?v=1655302935" alt="Series2-camera">
-                    <p class="price">STARTING AT $129</p>
+                    <img class="new_top_logo"  src="{{section.settings.collectionsub2 | image_url }}" alt="series2-laser"> <br>
+                    <img class="product_box" src="{{section.settings.collectionsub2product | image_url }}" alt="Series2-camera">
+                    <p class="price">{{section.settings.collectionsub2pricetext }}</p>
                     <div class="button">
-                        <a href="" class="shopcollection">
-                            SHOP COLLECTION
+                        <a href="{{ section.settings.collectionsub2url }}" class="shopcollection">
+                            {{ section.settings.collectionsub2text }}
                         </a>
                     </div>
                     </div>
                 </div>
             </div>
+            </div>
+            <div class="row shop-collectiontwo-section my-5">
+                <div class="col-11 mx-auto d-lg-flex ">
+                    <div class="col-lg-6 pe-4 megnetic-accesories-section ">
+                        <div class="col-md-10 col-xxl-6 ms-md-auto text-center sub-megnetic-accesories">
+                            <p class="magnetic-heading">   {{ section.settings.collectionsub3title }}</p>
+                            <p class="price"> 
+                             {{ section.settings.collectionsub3text }}
+                            </p>
+                            <div class="button">
+                                <a href="{{ section.settings.collectionsub3url }}" class="shopcollection">
+                                    {{ section.settings.collectionsub3text2 }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-6  text-center ps-lg-5 my-5 my-lg-0">
+                        <div class="bundleup-section ">
+                            <img class="bundleimage" src="{{section.settings.collection4sublogo | image_url }}">
+                            <p class="bundle-heading">
+                                {{section.settings.collection4subtext }}
+                            </p>
+                            <div class="row ranfider-section">
+    
+                                <div class="col-xxl-8 mx-auto d-flex">
+
+                                    {% for block in section.blocks %}
+                                        {% case block.type %}
+                                          {% when 'collection_feature' %}
+                                            <div class="col-3 m-auto border-right-section"> 
+                                                {{ block.settings.image | image_url: width: 2048 | image_tag }}
+                                                <p class="bundle-title">MAGNETIC RANGEFINDER</p>
+                                            </div>
+                                          {% endcase %}
+                                      {% endfor %}
+                                </div>
+                            </div>
+                            <img src="{{ section.settings.collection4sub | image_url }}" >
+                            <div class="pre_order_price">
+                                <span class="old-price"><span class="money">{{ section.settings.collection4sub_oldprice }}</span></span>
+                                <span class="new-price"><span class="money">{{ section.settings.collection4sub_newprice }}</span></span>
+                            </div>
+                            <div class="button">
+                                <a href="{{section.settings.collection4url}}" class="shopcollection">
+                                    {{section.settings.collection4subshoptext }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -185,36 +202,26 @@
 
     <div class="free_shipping_bg">
       
-          
-        <div class="free_shipping_box">
+        {% for block in section.blocks %}  
+    {% case block.type %}
+  
+      {% when 'spenzo_features' %}  
+          <div class="free_shipping_box">
             
-                <div class="icon"> <img src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Vector_4.png?v=1655305147"></div>
-            
-    
-            
-                <p><span>Free 1 Year</span><br>30% OFF UPGRADES</p>
-            
+            <div class="icon">
+                <img src="{{ block.settings.image | img_url:  "master"   }}" alt="" >
         </div>
-    
-        <div class="free_shipping_box">
-            
-                <div class="icon"> <img src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Union.png?v=1655305135"></div>
-            
-    
-            
-                <p><span>Free Shipping</span><br>﻿Orders Over $50</p>
-            
-        </div>
-    
-        <div class="free_shipping_box">
-            
-                <div class="icon"> <img src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Vector_3.png?v=1655305123"></div>
-            
-    
-            
-                <p><span>60 Day Trial</span><br>﻿Hassle Free Returns</p>
-            
-        </div>
+        
+
+        
+            <p> <span>{{ block.settings.text}} </span> <br> {{block.settings.text2}}</p>
+        
+    </div>
+
+    {% endcase %} 
+  {% endfor %}
+     
+   
     
     
     </div>
@@ -224,8 +231,12 @@
     <div class="container-fluid py-5">
         <div class="row">
             <div class="col-md-6 mx-auto text-center">
-                <h3 class="change_way_title "><p><strong>ZERO</strong> COMPROMISE</p></h3>                                
-                <p>Premium Golf Technology</p> 
+                <h3 class="change_way_title ">
+                    <p>
+                        {{ section.settings.subhead3text }} 
+                    </p>
+                </h3>                                
+                <p> {{ section.settings.subhead3text2 }} </p> 
             </div>
         </div>
     </div>
@@ -233,7 +244,7 @@
 
     
  <!-- rated-slope-section start  -->
-                <video width="100%" height="100%" class="container-fluid col-11 d-block mx-auto  video-div my-5  subrated-slope-section" data-type="mp4" src="https://cdn.shopify.com/videos/c/o/v/02839508d26f4ff783191a68d17cff15.mp4" loop="" muted="" playsinline="" autoplay=""></video>
+                <video width="100%" height="100%" class="container-fluid col-11 d-block mx-auto  video-div my-5  subrated-slope-section" data-type="mp4" src="{{section.settings.video1}}" loop="" muted="" playsinline="" autoplay=""></video>
 <!-- rated-slope-section end  -->
 
 <!-- shop-collection-section start -->
@@ -243,69 +254,16 @@
             <div class="col-11 mx-auto d-lg-flex ">
             <div class="col-lg-6  text-center pe-4">
                 <div class="player-megnetic-section ">
-                    <video  width="100%" height="100%"  class="video-div" data-type="mp4" src="https://cdn.shopify.com/videos/c/o/v/f5518f26bcee40c68cbead6a0350ef32.mp4" loop="" muted="" playsinline="" autoplay=""></video>
+                    <video  width="100%" height="100%"  class="video-div" data-type="mp4" src="{{section.settings.video2 }}" loop="" muted="" playsinline="" autoplay=""></video>
             </div>
             </div>
             <div class="col-lg-6  text-center ps-lg-4 my-5 my-lg-0">
                 <div class="player-megnetic-section ">
-                    <video  width="100%" height="100%"  class="video-div" data-type="mp4" src="https://cdn.shopify.com/videos/c/o/v/5184ee259122471ab49ea9064ebcc891.mp4" loop="" muted="" playsinline="" autoplay=""></video>
+                    <video  width="100%" height="100%"  class="video-div" data-type="mp4" src="{{section.settings.video3 }}" loop="" muted="" playsinline="" autoplay=""></video>
             </div>
         </div>
         </div>
-        <div class="row shop-collectiontwo-section my-5">
-            <div class="col-11 mx-auto d-lg-flex ">
-                <div class="col-lg-6 pe-4 megnetic-accesories-section ">
-                    <div class="col-md-10 col-xxl-6 ms-md-auto text-center sub-megnetic-accesories">
-                        <p class="magnetic-heading"> <span>Magnetic</span> <br>
-                            Accessories
-                        </p>
-                        <p class="price">AVAILABLE AT $129</p>
-                        <div class="button">
-                            <a href="" class="shopcollection">
-                                SHOP COLLECTION
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6  text-center ps-lg-5 my-5 my-lg-0">
-                    <div class="bundleup-section ">
-                        <img class="bundleimage" src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Group_18087.png?v=1655304115">
-                        <p class="bundle-heading">WHEN YOU BUNDLE - YOU SAVE BIG.</p>
-                        <div class="row ranfider-section">
-
-                            <div class="col-xxl-8 mx-auto d-flex">
-                                <div class="col-3 m-auto border-right-section"> <img
-                                        src="https://cdn.shopify.com/s/files/1/0057/8958/1381/files/Group_212_3.png?v=1655217789"
-                                        alt="">
-                                    <p class="bundle-title">MAGNETIC RANGEFINDER</p>
-                                </div>
-                                <div class="col-3 m-auto  border-right-section"> <img
-                                        src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Group_18053.png?v=1655304615">
-                                    <p class=" bundle-title">MAGNETIC RANGEFINDER</p>
-                                </div>
-                                <div class="col-3 m-auto"> <img
-                                        src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Group_260.png?v=1655304637">
-                                    <p class="bundle-title">MAGNETIC RANGEFINDER</p>
-                                </div>
-
-                            </div>
-                        </div>
-                        <img
-                            src="//cdn.shopify.com/s/files/1/0057/8958/1381/files/Bundle-Image-2_2x_1_1.png?v=1659169789">
-                        <div class="pre_order_price">
-                            <span class="old-price"><span class="money">$429.99</span></span>
-                            <span class="new-price"><span class="money">$369.99</span></span>
-                        </div>
-                        <div class="button">
-                            <a href="" class="shopcollection">
-                                SHOP COLLECTION
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </section>
 <!-- shop-collection-section end  -->
@@ -316,32 +274,32 @@
     <div class="container-fluid">
         <div class="row ">
             <div class="col-11 mx-auto d-lg-flex mb-5">
-                <div class="follow_us_bg" style="background:url(//cdn.shopify.com/s/files/1/0057/8958/1381/files/DSC_8723-Edit_copy_1.png?v=1655305378) no-repeat center center / cover;">
+                <div class="follow_us_bg" style="background:url({{section.settings.follow_image | img_url : "master"}}) no-repeat center center / cover;">
                     <div class="follow_us_text_box">
                           
-                            <h2>FOLLOW <span>US</span></h2>                                
+                            <h2>{{section.settings.follow_text}}</h2>                                
                         
                         <div class="follow_icon">
                               
-                                <a href="https://www.facebook.com/blueteesgolf/"><img src="//cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/fb-icon.svg?v=159817696035120092841655115872"></a>
+                                <a href="{{ settings.social_facebook_link }}"><img src="//cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/fb-icon.svg?v=159817696035120092841655115872"></a>
                             
                               
-                                <a href="https://www.instagram.com/blueteesgolf"><img src="//cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/in-icon.svg?v=162062994991129067981655115843"></a>
+                                <a href="{{ settings.social_instagram_link }}"><img src="//cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/in-icon.svg?v=162062994991129067981655115843"></a>
                             
                               
-                                <a href="https://www.youtube.com/channel/UCvvcGQETjy021ZYkg241I_g"><img src="//cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/you-icon.svg?v=173387528290930052411655115859"></a>
+                                <a href="{{ settings.social_youtube_link }}"><img src="//cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/you-icon.svg?v=173387528290930052411655115859"></a>
                             
                               
-                                <a href="#"><img src="//cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/j-icon.svg?v=106995139673785781321655115866"></a>
+                                <a href="{{ settings.social_tiktok_link }}"><img src="//cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/j-icon.svg?v=106995139673785781321655115866"></a>
                             
                               
-                                <a href="#"><img src="//cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/chat-icon.svg?v=57052002362302270821655115848"></a>
+                                <a href="{{ settings.social_snapchat_link }}"><img src="//cdn.shopify.com/s/files/1/0057/8958/1381/t/72/assets/chat-icon.svg?v=57052002362302270821655115848"></a>
                             
                             
                         </div>
                           
                           
-                            <h3>@blueteesgolf</h3>                                
+                            <h3>{{section.settings.social_id}}</h3>                                
                         
                     </div>
                 </div>
@@ -353,7 +311,297 @@
 {% schema %}
 {
   "name": "homepage",
-  "settings": [ ],
+  "settings": [ 
+    {
+        "type": "header",
+        "content": "hero section",
+        "info": "hero section"
+      },
+      {
+        "type": "image_picker",
+        "id": "slide1",
+        "label": "SLide 1"
+      },
+      {
+        "type": "text",
+        "id": "slide1btn",
+        "label": "Button text"
+      },
+      {
+        "type": "url",
+        "id": "slide1btnurl",
+        "label": "Button url"
+      },
+      {
+        "type": "image_picker",
+        "id": "slide1_bg",
+        "label": "Slide 1 background"
+      },
+      {
+        "type": "image_picker",
+        "id": "slide2_bg",
+        "label": "Slide 2"
+      },
+      {
+        "type": "header",
+        "content": "introduction",
+        "info": "shop new collection"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo1",
+        "label": "Logo"
+      },
+      {
+        "type": "text",
+        "id": "sheading1",
+        "label": "Heading 1"
+      },
+      {
+        "type": "text",
+        "id": "sheading2",
+        "label": "heading 2"
+      }
+      ,
+      {
+        "type": "image_picker",
+        "id": "product_group",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "product_group_logo",
+        "label": "Logo"
+      },
+      {
+        "type": "text",
+        "id": "subheadline",
+        "label": "heading"
+      },
+      {
+        "type": "text",
+        "id": "pricetext",
+        "label": "Price text"
+      },
+      {
+        "type": "text",
+        "id": "maincollectionbtn",
+        "label": "button text"
+      },
+      {
+        "type": "url",
+        "id": "maincollectionbtn_url",
+        "label": "Collection button link"
+      },
+       {
+        "type": "header",
+        "content": "Sub collection",
+        "info": "First collection"
+      },
+      {
+        "type": "image_picker",
+        "id": "collectionsub1",
+        "label": "collection logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "collectionsub1product",
+        "label": "collection image"
+      },
+      {
+        "type": "text",
+        "id": "collectionsub1pricetext",
+        "label": "Price text"
+      },
+       {
+        "type": "text",
+        "id": "collectionsub1text",
+        "label": "button text"
+      },
+       {
+        "type": "url",
+        "id": "collectionsub1url",
+        "label": "button url"
+      },
+       {
+        "type": "header",
+        "content": "Sub collection",
+        "info": "Second collection"
+      },
+      {
+        "type": "image_picker",
+        "id": "collectionsub2",
+        "label": "Collection logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "collectionsub2product",
+        "label": "Collection image"
+      },
+      {
+        "type": "text",
+        "id": "collectionsub2pricetext",
+        "label": "Price text"
+      },
+       {
+        "type": "text",
+        "id": "collectionsub2text",
+        "label": "button text"
+      },
+       {
+        "type": "url",
+        "id": "collectionsub2url",
+        "label": "button url"
+      } ,
+      {
+        "type": "header",
+        "content": "Sub collection",
+        "info": "third collection"
+      }, {
+        "type": "text",
+        "id": "collectionsub3title",
+        "label": "Collection title"
+
+      }, {
+        "type": "text",
+        "id": "collectionsub3text",
+        "label": "Collection text"
+        
+      }, {
+        "type": "text",
+        "id": "collectionsub3text2",
+        "label": "Collection button text"
+        
+      }, {
+        "type": "url",
+        "id": "collectionsub3url",
+        "label": "Collection url"
+        
+      },
+      {
+        "type": "header",
+        "content": "Sub collection",
+        "info": "fourth collection"
+      },
+      {
+        "type": "image_picker",
+        "id": "collection4sublogo",
+        "label": "Collection logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "collection4sub",
+        "label": "Collection image main"
+      }, {
+        "type": "text",
+        "id": "collection4subshoptext",
+        "label": "Collection button text"
+        
+      }, {
+        "type": "url",
+        "id": "collection4url",
+        "label": "Collection button url"
+        
+      }, {
+        "type": "text",
+        "id": "collection4sub_newprice",
+        "label": "Collection new price"
+        
+      }, {
+        "type": "text",
+        "id": "collection4sub_oldprice",
+        "label": "Collection old price"
+        
+      },
+      {
+        "type": "header",
+        "content": "videointroduction",
+        "info": "this will have video url hosted on shopify cdn"
+      }, {
+        "type": "text",
+        "id": "subhead3text",
+        "label": "Subhead text"
+        
+      }, {
+        "type": "text",
+        "id": "subhead3text2",
+        "label": "Subhead text2"
+        
+      }, {
+        "type": "url",
+        "id": "video1",
+        "label": "Video 1"
+        
+      },{
+        "type": "url",
+        "id": "video2",
+        "label": "Video 2"
+        
+      },{
+        "type": "url",
+        "id": "video3",
+        "label": "Video 3"
+        
+      },
+      {
+        "type": "header",
+        "content": "follow us section",
+        "info": "content and images"
+      },{
+        "type": "image_picker",
+        "id": "follow_image",
+        "label": "Follow us image"
+        
+      },{
+        "type": "text",
+        "id": "follow_text",
+        "label": "Follow us text"
+        
+      },{
+        "type": "text",
+        "id": "social_id",
+        "label": "Social id"
+        
+      }
+
+  ],
+  "blocks": [
+     {
+       "name": "Product Features",
+       "type": "productfeatures",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },  {
+           "type": "text",
+           "id": "text",
+           "label": "text"
+         }
+       ]
+     },
+      {
+       "name": "Spenzo Features",
+       "type": "spenzo_features",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },  {
+           "type": "text",
+           "id": "text",
+           "label": "text"
+         },
+         {
+           "type": "text",
+           "id": "text2",
+           "label": "text2"
+         }
+       ]
+     }
+   ],
   "presets": [
     {
       "name": "homepage",

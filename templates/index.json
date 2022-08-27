@@ -2,7 +2,144 @@
   "sections": {
     "1661416979866a6057": {
       "type": "homepage",
+      "blocks": {
+        "de4aee5e-f7e7-46ac-962f-163cd05d8255": {
+          "type": "spenzo_features",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_4.webp",
+            "text": "Free 1 Year",
+            "text2": "30% OFF UPGRADES"
+          }
+        },
+        "d4c6f457-5a9c-45e8-8b9d-ba510aaf1dc5": {
+          "type": "spenzo_features",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Union.webp",
+            "text": "Free Shipping",
+            "text2": "Orders Over $50"
+          }
+        },
+        "004a477a-0cda-4a7f-bb69-8e8678d8aad2": {
+          "type": "spenzo_features",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_3.webp",
+            "text": "60 Day Trial",
+            "text2": "﻿Hassle Free Returns"
+          }
+        },
+        "6d99eb98-e7fe-4196-bc19-6643b9a911fb": {
+          "type": "productfeatures",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-1_d792b03b-ec21-441f-bfe3-dd0965cae0f5.webp",
+            "text": "some text"
+          }
+        },
+        "261c4be8-db1a-40ff-82dc-6307c6191a19": {
+          "type": "productfeatures",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-5_35ecf5ca-e935-485b-a4aa-1388923f16b7.webp",
+            "text": "some new text"
+          }
+        },
+        "923e6e3a-70ee-43c2-9963-42da7318ddb5": {
+          "type": "productfeatures",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-4_6d5755a9-9bca-4f4a-b72a-cbebdde0e21f.webp",
+            "text": "new text"
+          }
+        },
+        "cebfc17e-3df9-4095-8074-6019e2cf68b4": {
+          "type": "productfeatures",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-6_d8a622a3-61ad-4349-b02c-3056e8fdd990.webp",
+            "text": "text new"
+          }
+        },
+        "2f3bc1ee-923c-4d70-bc12-6e50206f1800": {
+          "type": "productfeatures",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Flaglock.webp",
+            "text": "flag new"
+          }
+        },
+        "76a622d2-9673-4d09-91e1-78c9f2467a63": {
+          "type": "productfeatures",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-8.webp",
+            "text": "pulse"
+          }
+        },
+        "5117ee09-1cd1-4d33-84e6-b60a78a4d1f5": {
+          "type": "productfeatures",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-9.webp",
+            "text": "location"
+          }
+        },
+        "3e1f81a2-1fb9-46a4-95f8-f7d2ed916796": {
+          "type": "productfeatures",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-10.webp",
+            "text": "water"
+          }
+        }
+      },
+      "block_order": [
+        "de4aee5e-f7e7-46ac-962f-163cd05d8255",
+        "d4c6f457-5a9c-45e8-8b9d-ba510aaf1dc5",
+        "004a477a-0cda-4a7f-bb69-8e8678d8aad2",
+        "6d99eb98-e7fe-4196-bc19-6643b9a911fb",
+        "261c4be8-db1a-40ff-82dc-6307c6191a19",
+        "923e6e3a-70ee-43c2-9963-42da7318ddb5",
+        "cebfc17e-3df9-4095-8074-6019e2cf68b4",
+        "2f3bc1ee-923c-4d70-bc12-6e50206f1800",
+        "76a622d2-9673-4d09-91e1-78c9f2467a63",
+        "5117ee09-1cd1-4d33-84e6-b60a78a4d1f5",
+        "3e1f81a2-1fb9-46a4-95f8-f7d2ed916796"
+      ],
       "settings": {
+        "slide1": "shopify:\/\/shop_images\/banner-13-8-left-img1.webp",
+        "slide1btn": "Shop now",
+        "slide1btnurl": "shopify:\/\/products\/car-turning-steering-wheel-booster-spinner-knob-360-degree-rotation-711766680",
+        "slide1_bg": "shopify:\/\/shop_images\/banner-13-8-right-img1.webp",
+        "slide2_bg": "shopify:\/\/shop_images\/slider-player.webp",
+        "logo1": "shopify:\/\/shop_images\/Spenzo_logos_Mesa_de_trabajo_1_copia_2.png",
+        "sheading1": "PLAY <strong> DIFFERENT <strong><\/strong><\/strong>",
+        "sheading2": "GOLF EDITOR’S CHOICE 2022",
+        "product_group": "shopify:\/\/shop_images\/Group_19675.webp",
+        "product_group_logo": "shopify:\/\/shop_images\/Group_212_3.webp",
+        "subheadline": "#1 RATED SLOPE RANGEFINDER 2021-22",
+        "pricetext": "Starting at $199",
+        "maincollectionbtn": "Shop now",
+        "maincollectionbtn_url": "shopify:\/\/collections",
+        "collectionsub1": "shopify:\/\/shop_images\/Group_18086.webp",
+        "collectionsub1product": "shopify:\/\/shop_images\/PlayerSpeaker_8_1.webp",
+        "collectionsub1pricetext": "STARTING AT $129",
+        "collectionsub1text": "Show now",
+        "collectionsub1url": "shopify:\/\/collections\/accessories",
+        "collectionsub2": "shopify:\/\/shop_images\/Group_18085.webp",
+        "collectionsub2product": "shopify:\/\/shop_images\/Series2-Family_2x_1.webp",
+        "collectionsub2pricetext": "STARTING AT $149",
+        "collectionsub2text": "Shop now",
+        "collectionsub2url": "shopify:\/\/collections\/golf-speaker",
+        "collectionsub3title": "<span> MAGNETIC <\/span> ACCESSORIES",
+        "collectionsub3text": "AVAILABLE AT $29",
+        "collectionsub3text2": "shop collection",
+        "collectionsub3url": "shopify:\/\/collections\/golf-speaker",
+        "collection4sublogo": "shopify:\/\/shop_images\/Group_18087.webp",
+        "collection4sub": "shopify:\/\/shop_images\/Bundle-Image-2_2x_1_1.webp",
+        "collection4subshoptext": "Shop collection",
+        "collection4url": "shopify:\/\/products\/car-turning-steering-wheel-booster-spinner-knob-360-degree-rotation-711766680",
+        "collection4sub_newprice": "$369.99",
+        "collection4sub_oldprice": "$429.99",
+        "subhead3text": "<strong>ZERO <\/strong> COMPROMISE",
+        "subhead3text2": "Premium Golf Technology",
+        "video1": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/02839508d26f4ff783191a68d17cff15.mp4",
+        "video2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f5518f26bcee40c68cbead6a0350ef32.mp4",
+        "video3": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5184ee259122471ab49ea9064ebcc891.mp4",
+        "follow_image": "shopify:\/\/shop_images\/DSC_8723-Edit_copy_1.webp",
+        "follow_text": "FOLLOW <strong>US<\/strong>",
+        "social_id": "@spenzo"
       }
     }
   },
