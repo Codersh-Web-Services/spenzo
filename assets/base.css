@@ -3009,6 +3009,20 @@ div[aria-label="Announcement"] {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
+button.product-form__submit {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border: none;
+}
+
+button.product-form__submit span {
+  display: block;
+  margin: auto;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
 
 /* ......................niket homepage css start..........  */
 * {
@@ -3376,15 +3390,14 @@ div[aria-label="Announcement"] {
   padding-bottom: 40px;
 }
 
-/
+/* /
   .............
   bundleup-section
   start
   here
   ............
-  /
-  .bundleup-section
-  img {
+  / */
+.bundleup-section img {
   width: 384px;
 }
 
