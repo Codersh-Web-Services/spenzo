@@ -3776,8 +3776,8 @@ button.product-form__submit span {
 
 /* learnmore-section end  */
 
-/* warrenty-section start  */
-.warrenty-section h2.warrenty-section-heading {
+/* warranty-section start  */
+.warranty-section h2.warranty-section-heading {
   font-size: 40px;
   line-height: 40px;
   color: #272d3d;
@@ -3785,7 +3785,7 @@ button.product-form__submit span {
   font-style: italic;
 }
 
-.warrenty-section p.warrenty-section-info {
+.warranty-section p.warranty-section-info {
   font-weight: 400;
   font-size: 16px;
   padding: 15px 0 0;
@@ -3793,7 +3793,7 @@ button.product-form__submit span {
   margin: 0;
 }
 
-/* warrenty-section end  */
+/* warranty-section end  */
 
 /* responsive design start  */
 
@@ -3836,5 +3836,37 @@ button.product-form__submit span {
   .faq-section p.faq-heading,
   .faq-section p.faq-title {
     font-size: 30px;
+  }
+
+  .play-diffrent-section h3.change_way_title p {
+    font-size: 40px;
+  }
+
+  .shop-collection-section .new_top_logo {
+    width: 75% !important;
+  }
+
+  .free_shipping_bg {
+    padding: 0;
+  }
+
+  .free_shipping_bg .free_shipping_box p span {
+    font-size: 22px;
+  }
+
+  .play-diffrent-section h3.change_way_title p {
+    font-size: 45px;
+  }
+
+  .follow_us_text_box {
+    margin: 0px 0 0 25%;
+  }
+
+  .shop-collectiontwo-section
+    .megnetic-accesories-section
+    p.magnetic-heading
+    span,
+  .shop-collectiontwo-section .megnetic-accesories-section p.magnetic-heading {
+    font-size: 40px;
   }
 }
