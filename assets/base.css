@@ -3805,6 +3805,19 @@ button.product-form__submit span {
 }
 
 @media only screen and (max-width: 767px) {
+  .subscription-form .signup_input {
+    width: 100%;
+  }
+  .subscription-form .signup_btn {
+    margin: 25px 0;
+  }
+  .shop-collection-section .bundleup-section img {
+    width: 75%;
+  }
+  .shop-collection-section .new_top_logo {
+    width: 75%;
+  }
+
   .another-level-performance .accurate-performanace h3.faster-speed-heading {
     font-style: italic;
     font-size: 50px;
