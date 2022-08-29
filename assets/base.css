@@ -3776,8 +3776,8 @@ button.product-form__submit span {
 
 /* learnmore-section end  */
 
-/* warrenty-section start  */
-.warrenty-section h2.warrenty-section-heading {
+/* warranty-section start  */
+.warranty-section h2.warranty-section-heading {
   font-size: 40px;
   line-height: 40px;
   color: #272d3d;
@@ -3785,7 +3785,7 @@ button.product-form__submit span {
   font-style: italic;
 }
 
-.warrenty-section p.warrenty-section-info {
+.warranty-section p.warranty-section-info {
   font-weight: 400;
   font-size: 16px;
   padding: 15px 0 0;
@@ -3793,7 +3793,7 @@ button.product-form__submit span {
   margin: 0;
 }
 
-/* warrenty-section end  */
+/* warranty-section end  */
 
 /* responsive design start  */
 
