@@ -3891,7 +3891,7 @@ button.product-form__submit span {
   }
 }
 
-.cart-notification button {
+#cart-notification-form button {
 
   padding: 1rem;
   text-align: center;
