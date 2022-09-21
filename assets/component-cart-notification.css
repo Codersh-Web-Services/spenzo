@@ -46,6 +46,12 @@
   background: #fff;
 }
 
+.cart-notification.active button {
+  border: none;
+  padding: 1rem;
+}
+
+
 .cart-notification__header {
   align-items: flex-start;
   display: flex;

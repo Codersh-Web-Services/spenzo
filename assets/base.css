@@ -3860,10 +3860,6 @@ button.product-form__submit span {
     background: #fff;
   }
 
-  .cart-notification.active button {
-    border: none;
-    padding: 1rem;
-  }
 
   .play-diffrent-section h3.change_way_title p {
     font-size: 40px;
