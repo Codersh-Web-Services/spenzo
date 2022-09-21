@@ -46,16 +46,6 @@
   background: #fff;
 }
 
-.cart-notification button {
-
-  padding: 1rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1.4rem;
-  border: 1px solid;
-}
-
 
 .cart-notification__header {
   align-items: flex-start;
