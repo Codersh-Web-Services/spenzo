@@ -46,9 +46,14 @@
   background: #fff;
 }
 
-.cart-notification.active button {
-  border: none;
+.cart-notification button {
+
   padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.4rem;
+  border: 1px solid;
 }
 
 

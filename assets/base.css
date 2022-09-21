@@ -3890,3 +3890,13 @@ button.product-form__submit span {
     font-size: 40px;
   }
 }
+
+.cart-notification button {
+
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.4rem;
+  border: 1px solid;
+}
